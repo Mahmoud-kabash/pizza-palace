@@ -1,16 +1,36 @@
-# React + Vite
+#  Pizza Palace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page restaurant website built with React JS for CSCI390: Web Programming — Phase 2.
 
-Currently, two official plugins are available:
+## Pages
+- Home
+- Menu
+- About
+- Order 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React JS (Vite)
+- JavaScript 
+- HTML5 & CSS3
+- Git & GitHub
 
-## React Compiler
+## Project Structure
+src/
+├── components/
+│   ├── Navbar.jsx
+│   └── Footer.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Menu.jsx
+│   ├── About.jsx
+│   └── Order.jsx
+├── App.jsx
+└── App.css
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+```bash
+git clone https://github.com/Mahmoud-kabash/pizza-palace.git
+cd pizza-palace
+npm install
+npm run dev
+```
