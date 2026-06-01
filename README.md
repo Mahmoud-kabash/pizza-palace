@@ -15,6 +15,8 @@ A multi-page restaurant website built with React JS for CSCI390: Web Programming
 - Git & GitHub
 
 ## Project Structure
+
+```
 src/
 ├── components/
 │   ├── Navbar.jsx
@@ -26,6 +28,7 @@ src/
 │   └── Order.jsx
 ├── App.jsx
 └── App.css
+```
 
 ## Setup Instructions
 ```bash
