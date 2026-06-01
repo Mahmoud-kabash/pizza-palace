@@ -37,3 +37,5 @@ cd pizza-palace
 npm install
 npm run dev
 ```
+##live website
+https://pizza-palace-neon.vercel.app
